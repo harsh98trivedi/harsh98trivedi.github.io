@@ -82,3 +82,7 @@
   link: https://github.com/harsh98trivedi/Random-Decimal-Hex-Binary-and-String-Generator
   image: https://raw.githubusercontent.com/harsh98trivedi/Random-Decimal-Hex-Binary-and-String-Generator/master/meta.jpg
   description: A beautifully simple, perfectly centered, and accessible Random Decimal Hex Binary and String Generator that produces unique, non-repeating outputs in multiple formats — decimal numbers, hexadecimal, binary, and alphanumeric strings
+- name: Text Info
+  link: https://github.com/harsh98trivedi/Text-Info
+  image: https://github.com/harsh98trivedi/Text-Info/raw/master/meta.jpg
+  description: Text Info is a clean and smart web app that helps you count characters, words, symbols, and more while checking the SMS encoding type in real time. It’s perfect for anyone composing messages that need to stay within SMS limits and encoding standards.
