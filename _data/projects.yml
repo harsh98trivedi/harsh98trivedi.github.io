@@ -4,7 +4,7 @@
   description: Technology Simplified. A blog about all the tech tips, tricks, tweaks and more.
 - name: YouTube Thumbnail Downloader
   link: https://github.com/harsh98trivedi/YouTube-Thumbnail-Downloader
-  image: https://raw.github.com/harsh98trivedi/YouTube-Thumbnail-Downloader/master/images/meta.jpg
+  image: https://github.com/harsh98trivedi/YouTube-Thumbnail-Downloader/raw/master/meta.jpg
   description: Download YouTube video thumbnails with ease. Free, Clean & Simple YouTube Thumbnail Downloader for you.
 - name: Git-Commands
   link: https://github.com/WeTheFOSS/Git-Commands
