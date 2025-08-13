@@ -86,3 +86,7 @@
   link: https://github.com/harsh98trivedi/Text-Info
   image: https://github.com/harsh98trivedi/Text-Info/raw/master/meta.jpg
   description: Text Info is a clean and smart web app that helps you count characters, words, symbols, and more while checking the SMS encoding type in real time. It’s perfect for anyone composing messages that need to stay within SMS limits and encoding standards.
+- name: JSON Formatter
+  link: https://github.com/harsh98trivedi/JSON-Formatter
+  image: https://github.com/harsh98trivedi/JSON-Formatter/raw/master/meta.jpg
+  description: A clean, responsive, and modern JSON Formatter.
