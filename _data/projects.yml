@@ -94,3 +94,7 @@
   link: https://chromewebstore.google.com/detail/youtube-studio-one-click/nponiplhcgglkjekghjcliplhocfnkik
   image: https://github.com/harsh98trivedi/YouTube-Studio-One-Click-Liker/raw/master/images/meta.jpg
   description: Likes all un-hearted comments on YouTube Studio page with a single click on the extension icon.
+- name: Amazon Search History Cleaner
+  link: https://chromewebstore.google.com/detail/amazon-search-history-cleaner/fgaglnpgeecmcahneolhgmplifhpikpa
+  image: https://github.com/harsh98trivedi/Amazon-Search-History-Cleaner/raw/master/images/meta.jpg
+  description: Clears the Amazon search bar history suggestions with a single click.
