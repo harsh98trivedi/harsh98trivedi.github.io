@@ -102,3 +102,7 @@
   link: https://chromewebstore.google.com/detail/amazon-search-history-cleaner/fgaglnpgeecmcahneolhgmplifhpikpa
   image: https://github.com/harsh98trivedi/Amazon-Search-History-Cleaner/raw/master/images/meta.jpg
   description: Clears the Amazon search bar history suggestions with a single click.
+- name: YouTube Quick Controls
+  link: https://chromewebstore.google.com/detail/youtube-quick-controls/hcbpfgoejhnhmdhkbnkeofhfmfmjfnjg
+  image: https://raw.githubusercontent.com/harsh98trivedi/YouTube-Quick-Controls/master/images/meta.jpg
+  description: Fast, customizable quality and speed controls with keyboard shortcuts for YouTube videos
