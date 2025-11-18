@@ -106,3 +106,7 @@
   link: https://chromewebstore.google.com/detail/youtube-quick-controls/hcbpfgoejhnhmdhkbnkeofhfmfmjfnjg
   image: https://raw.githubusercontent.com/harsh98trivedi/YouTube-Quick-Controls/master/images/meta.jpg
   description: Fast, customizable quality and speed controls with keyboard shortcuts for YouTube videos
+- name: TidBit
+  link: https://github.com/harsh98trivedi/TidBit
+  image: https://github.com/harsh98trivedi/TidBit/raw/master/public/meta.jpg
+  description: A Svelte ToDo with formatting & reminders
