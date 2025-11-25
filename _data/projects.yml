@@ -110,3 +110,7 @@
   link: https://github.com/harsh98trivedi/TidBit
   image: https://github.com/harsh98trivedi/TidBit/raw/master/public/meta.jpg
   description: A Svelte ToDo with formatting & reminders
+- name: MultiFormat Data Converter
+  link: https://github.com/harsh98trivedi/MultiFormat-Data-Converter
+  image: https://github.com/harsh98trivedi/MultiFormat-Data-Converter/raw/master/public/meta.jpg
+  description: A modern, fast, and privacy-first data conversion tool that runs entirely in the browser
