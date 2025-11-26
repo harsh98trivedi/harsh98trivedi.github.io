@@ -116,6 +116,5 @@
   description: A modern, fast, and privacy-first data conversion tool that runs entirely in the browser
 - name: One-Click HAR Exporter
   link: https://github.com/harsh98trivedi/One-Click-HAR-Exporter
-  image: https://github.com/harsh98trivedi/One-Click-HAR-Exporter/raw/master/public/meta.jpg
+  image: https://github.com/harsh98trivedi/One-Click-HAR-Exporter/raw/master/images/meta.jpg
   description: Export HAR files with a single click directly from the browser's toolbar.
-
