@@ -1,7 +1,11 @@
+- name: Redirection Romeo
+  link: https://github.com/harsh98trivedi/Redirection-Romeo
+  image: https://github.com/harsh98trivedi/Redirection-Romeo/raw/master/assets/images/meta.jpg
+  description: A modern, lightweight redirect manager. Redirect slugs to external URLs or internal pages/posts with style.
 - name: Smart Content Blocker
   link: https://github.com/harsh98trivedi/Smart-Content-Blocker
   image: https://github.com/harsh98trivedi/Smart-Content-Blocker/raw/master/images/meta.jpg
-  description: A powerful Chrome extension that intelligently blocks inappropriate content and social media distractions using smart heuristic analysis। 
+  description: A powerful Chrome extension that intelligently blocks inappropriate content and social media distractions using smart heuristic analysis
 - name: One-Click HAR Exporter
   link: https://github.com/harsh98trivedi/One-Click-HAR-Exporter
   image: https://github.com/harsh98trivedi/One-Click-HAR-Exporter/raw/master/images/meta.jpg
