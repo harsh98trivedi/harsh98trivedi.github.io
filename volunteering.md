@@ -3,7 +3,7 @@ title: Volunteering
 layout: page
 ---
 
-# [**WordCamp Mumvau 2023**](https://mumbai.wordcamp.org/2023/){:target="_blank"}
+# [**WordCamp Mumbai 2023**](https://mumbai.wordcamp.org/2023/){:target="_blank"}
 ###### **Photographer** - October, 2023
 ![WC Mumbai 2023](https://i.imgur.com/JAw06PA.jpeg)
 
