@@ -1,4 +1,4 @@
-- name: Redirection Romeo
+- name: Romeo Redirect Manager
   link: https://github.com/harsh98trivedi/Romeo-Redirect-Manager
   image: https://github.com/harsh98trivedi/Romeo-Redirect-Manager/raw/master/assets/images/meta.jpg
   description: A modern, lightweight redirect manager. Redirect slugs to external URLs or internal pages/posts with style.
