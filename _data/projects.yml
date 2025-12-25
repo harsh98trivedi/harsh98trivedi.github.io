@@ -1,6 +1,6 @@
 - name: Redirection Romeo
-  link: https://github.com/harsh98trivedi/Redirection-Romeo
-  image: https://github.com/harsh98trivedi/Redirection-Romeo/raw/master/assets/images/meta.jpg
+  link: https://github.com/harsh98trivedi/Romeo-Redirect-Manager
+  image: https://github.com/harsh98trivedi/Romeo-Redirect-Manager/raw/master/assets/images/meta.jpg
   description: A modern, lightweight redirect manager. Redirect slugs to external URLs or internal pages/posts with style.
 - name: Smart Content Blocker
   link: https://github.com/harsh98trivedi/Smart-Content-Blocker
