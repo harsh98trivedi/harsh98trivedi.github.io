@@ -3,6 +3,14 @@ title: Volunteering
 layout: page
 ---
 
+
+
+# [**Kanpur AI**](https://www.kanpurai.space/){:target="_blank"}
+###### **Organizer** - November, 2025
+![Kanpur AI](https://i.imgur.com/q5dB9wA.jpeg)
+
+Building a friendly space where students and young developers can grow together by helping and mentoring each other. To make this happen, a community-led platform is being developed to bring all AI resources and learning materials into one place. The whole idea is to make AI education simple and reachable for everyone in Kanpur, so that every innovator—no matter their background—can easily start their journey and become future-ready
+
 # [**WordCamp Mumbai 2023**](https://mumbai.wordcamp.org/2023/){:target="_blank"}
 ###### **Photographer** - October, 2023
 ![WC Mumbai 2023](https://i.imgur.com/JAw06PA.jpeg)
