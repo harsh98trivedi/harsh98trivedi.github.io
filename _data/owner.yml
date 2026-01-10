@@ -1,19 +1,19 @@
 # --- OWNER CORE CONFIGURATION ---
 
 # 1. IDENTITY & BIO
-name: "Harsh Trivedi"
+name: "Atharva Sharma"
 tagline: "Inspired by Imagination"
 role: "A Tech Lover"
-email: "hi@harshtrivedi.in"
+email: "hi@atharva_sharma.in"
 location: "India"
-avatar: "https://github.com/harsh98trivedi.png"
+avatar: "https://avatars.githubusercontent.com/u/202926236?v=4"
 bio_short: "A Tech Lover, Inspired by Imagination"
 bio_long: "Howdy, I'm Harsh Trivedi. I'm passionate Tech Lover Inspired by Imagination. Apart from being an ardent tech enthusiast, I love spending time on design tools and exploring open-source projects. I enjoy tweaking and tinkering with the gadgets I own, and apart from all this, I enjoy spending my time watching content from some of my favorite creators. Playing with new software and apps acts like dopamine for me."
 
 # 2. SOCIALS
 # Leave a value empty "" to hide the icon from the site.
 socials:
-  github: "https://github.com/harsh98trivedi"
+  github: "https://github.com/atharva-dev1"
   twitter: "https://twitter.com/harsh98trivedi"
   linkedin: "https://linkedin.com/in/harsh98trivedi"
   instagram: "https://instagram.com/harsh98trivedi"
