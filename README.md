@@ -2,7 +2,7 @@
 
 **Echofolio** is a premium, high-performance portfolio theme designed for developers, designers, and creative technologies. Built with **Jekyll** and **Tailwind CSS**, it features a fully data-driven architecture, meaning you can control almost every aspect of the site from a single configuration file without touching code.
 
-![EchoFolio Preview](https://repository-images.githubusercontent.com/1131344790/e6ab4b83-373c-4102-b4ee-03fc302a6949)
+![EchoFolio Preview](assets/img/meta.jpg)
 
 ## ✨ Features
 
@@ -105,8 +105,8 @@ config:
 
 ### **How to Change the Logo**
 1.  Navigate to `assets/img/`.
-2.  Replace `icon.svg` with your own SVG logo.
-3.  Ensure the filename remains `icon.svg` or update the reference in `_includes/navbar.html`.
+2.  Replace `logo.png` with your own PNG logo.
+3.  Ensure the filename remains `logo.png` or update the reference in `_includes/navbar.html`.
 
 ### **How to Disable the Blog**
 1.  Open `_data/owner.yml`.

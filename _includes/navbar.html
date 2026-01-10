@@ -4,12 +4,11 @@
     <div class="container mx-auto px-6 h-24 flex items-center justify-between relative z-50 pointer-events-auto">
         <!-- SVG Logo -->
         <a href="{{ '/' | relative_url }}" aria-label="Home" class="group relative w-8 h-8 flex items-center justify-center pointer-events-auto magnetic z-50">
-            <object 
-                data="{{ '/assets/img/icon.svg' | relative_url }}" 
-                type="image/svg+xml" 
-                class="w-full h-full text-white pointer-events-none invert brightness-0"
-                aria-label="Logo"
-            ></object>
+            <img 
+                src="{{ '/assets/img/logo.png' | relative_url }}" 
+                alt="Logo"
+                class="w-full h-full object-contain pointer-events-none"
+            />
         </a>
 
         <!-- Desktop Links -->
@@ -17,17 +16,17 @@
             {% for item in site.data.owner.navigation %}
             <a 
                 href="{{ item.url | relative_url }}" 
-                class="nav-item text-xs lg:text-sm font-sans font-bold tracking-[0.2em] uppercase text-gray-400 hover:text-white transition-colors relative group magnetic py-4"
+                class="nav-item text-xs lg:text-sm font-sans font-bold tracking-[0.2em] uppercase text-gray-400 hover:text-primary transition-colors relative group magnetic py-4"
             >
                 <span class="inline-block">{{ item.title }}</span>
-                <span class="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                <span class="absolute bottom-0 left-0 w-full h-[1px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
             </a>
             {% endfor %}
         </div>
         
         <!-- Right Side: Let's Talk + Mobile Toggle -->
         <div class="flex items-center gap-6 z-[100]">
-            <a href="{{ '/contact' | relative_url }}" class="hidden lg:flex items-center justify-center h-10 px-8 border border-white/20 rounded-full text-xs font-sans font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all hover:scale-105 magnetic backdrop-blur-sm bg-white/5 text-white">
+            <a href="{{ '/contact' | relative_url }}" class="hidden lg:flex items-center justify-center h-10 px-8 border border-white/20 rounded-full text-xs font-sans font-bold uppercase tracking-widest hover:bg-primary hover:border-primary hover:text-white transition-all hover:scale-105 magnetic backdrop-blur-sm bg-white/5 text-white">
                 Let's Talk
             </a>
 
