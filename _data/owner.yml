@@ -31,10 +31,10 @@ navigation:
     url: /projects
   - title: Blog
     url: /blog
-  - title: Volunteering
-    url: /volunteering
   - title: Links
     url: https://harsh98trivedi.github.io/links
+  - title: Volunteering
+    url: /volunteering
 
 # 4. SKILLS
 # Icons: Use simple-icons names (e.g. 'react', 'typescript') or React Icons names (e.g. 'SiReact').
