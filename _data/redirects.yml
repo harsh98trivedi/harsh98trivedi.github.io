@@ -3,6 +3,6 @@
 - from: /blogs
   to: /blog
 - from: /contacts
-  to: /contact.html
+  to: /contact
 - from: /link
   to: /links

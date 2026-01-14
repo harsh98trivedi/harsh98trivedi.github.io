@@ -1,6 +1,8 @@
 // Initialize tsParticles
 // Documentation: https://particles.js.org/
-document.addEventListener('DOMContentLoaded', async () => {
+const initParticles = async () => {
+    if (typeof tsParticles === 'undefined') return;
+
     await loadParticles(tsParticles);
 
     await tsParticles.load("tsparticles", {
@@ -94,7 +96,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             color: "transparent"
         }
     });
-});
+};
+
+document.addEventListener('DOMContentLoaded', initParticles);
+document.addEventListener('turbo:load', initParticles);
 
 async function loadParticles(tsParticles) {
     // Presets can be loaded here if needed, but we are using raw config

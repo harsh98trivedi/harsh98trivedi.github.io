@@ -25,10 +25,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-pwa-workbox
+  - jekyll-workbox-plugin
+  - jekyll-turbo
 
-# PWA Configuration
-pwa:
+# Workbox Configuration
+workbox:
   sw_src_filepath: _includes/sw.js # Optional: Path to your custom SW template
   sw_dest_filename: sw.js # Destination filename
   precache_glob_directory: _site
