@@ -17,7 +17,12 @@ import { initArsenal } from './js/arsenal'
 // Initialize all effects
 // Initialize all effects
 function initApp() {
-    try { ScrollTrigger.getAll().forEach(t => t.kill()); } catch(e) {}
+    // Safe cleanup
+    try { 
+        if (ScrollTrigger && typeof ScrollTrigger.getAll === 'function') {
+            ScrollTrigger.getAll().forEach(t => t.kill()); 
+        }
+    } catch(e) { console.log('Cleanup silent fail', e); }
     
     // Immediate Init (Critical for Visuals - Desktop Only)
     if (window.matchMedia("(min-width: 1024px)").matches && window.matchMedia("(pointer: fine)").matches) {

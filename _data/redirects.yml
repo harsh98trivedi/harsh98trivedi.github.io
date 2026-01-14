@@ -3,8 +3,6 @@
 - from: /blogs
   to: /blog
 - from: /contacts
-  to: /contact
+  to: /contact.html
 - from: /link
   to: /links
-- from: /feeds.xml
-  to: /feed.xml

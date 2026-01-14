@@ -103,7 +103,7 @@ config:
 
 ## 🔀 Managing Redirects
 
-Redirects are managed via `_data/redirects.yml`. This allows you to define custom URL redirections easily using a Jekyll generator plugin.
+Redirects are managed via `_data/redirects.yml`. This uses a **smart client-side fallback** system (via the 404 page) to handle redirections instantly, meaning it works on GitHub Pages, local environments, and any static host without complex server configuration.
 
 ### **Adding a Redirect**
 1. Open `_data/redirects.yml`.
@@ -116,7 +116,7 @@ Redirects are managed via `_data/redirects.yml`. This allows you to define custo
   to: /blog
 ```
 
-The system will automatically generate the necessary redirect pages during the build process.
+The 404 page will automatically detect these rules and redirect the user immediately.
 
 ---
 

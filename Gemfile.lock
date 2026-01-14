@@ -46,6 +46,7 @@ GEM
       sinatra-contrib (~> 4.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-pwa-workbox (5.1.41)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
@@ -118,6 +119,7 @@ DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-admin
   jekyll-feed
+  jekyll-pwa-workbox
   jekyll-redirect-from
   jekyll-seo-tag
   webrick
