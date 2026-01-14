@@ -101,6 +101,25 @@ config:
 
 ---
 
+## 🔀 Managing Redirects
+
+Redirects are managed via `_data/redirects.yml`. This allows you to define custom URL redirections easily using a Jekyll generator plugin.
+
+### **Adding a Redirect**
+1. Open `_data/redirects.yml`.
+2. Add a new entry with `from` and `to` keys:
+
+```yaml
+- from: /project
+  to: /projects
+- from: /blogs
+  to: /blog
+```
+
+The system will automatically generate the necessary redirect pages during the build process.
+
+---
+
 ## 🛠️ Customization Guides
 
 ### **How to Change the Logo**
