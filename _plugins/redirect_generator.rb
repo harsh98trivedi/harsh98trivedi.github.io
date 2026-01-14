@@ -16,12 +16,19 @@ module Jekyll
         # Ensure path starts with /
         from_path = "/#{from_path}" unless from_path.start_with?('/')
         
+        # Add trailing slash if no extension to ensure it renders as an index.html file
+        # effectively making it a directory. This fixes the "file download" issue.
+        permalink = from_path
+        if File.extname(from_path).empty? && !permalink.end_with?('/')
+          permalink += "/"
+        end
+        
         # Create the page
         page = PageWithoutAFile.new(site, site.source, "", from_path)
         page.content = ""
         page.data['layout'] = nil
         page.data['sitemap'] = false
-        page.data['permalink'] = from_path
+        page.data['permalink'] = permalink
         page.data['redirect_to'] = to_path
         
         site.pages << page
