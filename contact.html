@@ -23,18 +23,26 @@ title: Contact
                      {% if site.data.owner.email %}
                      <div>
                          <span class="text-sm font-mono text-gray-500 uppercase tracking-widest block mb-2">Email Me</span>
-                         <a href="mailto:{{ site.data.owner.email }}?subject=Let's work together" class="text-2xl md:text-3xl font-display hover:text-primary transition-colors magnetic inline-block border-b border-transparent hover:border-primary">
+                         <a href="mailto:{{ site.data.owner.email }}?subject=Let's work together" class="text-2xl md:text-3xl font-display hover:text-primary transition-colors magnetic inline-block border-b border-transparent hover:border-primary transform-gpu">
                              {{ site.data.owner.email }}
                          </a>
                      </div>
                      {% endif %}
+
+
+                     <!-- Google Calendar Appointment Scheduling begin -->
+                     <!-- Google Calendar Appointment Scheduling begin -->
+                     <a href="{{ site.data.owner.config.google_calendar_appointment_url }}" target="_blank" class="text-2xl md:text-3xl font-display hover:text-primary transition-colors magnetic inline-block border-b border-transparent hover:border-primary transform-gpu">
+                        <i class="fa-regular fa-calendar mr-3"></i> Schedule a Call
+                     </a>
+                     <!-- end Google Calendar Appointment Scheduling -->
 
                      <!-- Socials -->
                      <div>
                          <span class="text-sm font-mono text-gray-500 uppercase tracking-widest block mb-6">Connect</span>
                          <div class="flex flex-wrap gap-4">
                              {% for social in site.data.owner.socials %}
-                             <a href="{{ social[1] }}" target="_blank" class="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:bg-white hover:text-black transition-all group magnetic" aria-label="{{ social[0] | capitalize }}">
+                             <a href="{{ social[1] }}" target="_blank" class="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:bg-white hover:text-black transition-all group magnetic transform-gpu" aria-label="{{ social[0] | capitalize }}">
                                  <!-- Icon Logic -->
                                  {% assign platform = social[0] | downcase %}
                                  {% assign icon_class = 'fa-solid fa-link' %}
@@ -73,7 +81,7 @@ title: Contact
                     method="POST" 
                     id="contact-form"
                     target="hidden_iframe"
-                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 space-y-8 shadow-2xl relative overflow-hidden group/form"
+                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 space-y-8 shadow-2xl relative overflow-hidden group/form transform-gpu will-change-transform"
                     onsubmit="this.querySelector('button[type=submit]').innerHTML = 'Sending...'; this.querySelector('button[type=submit]').disabled = true; setTimeout(() => { this.reset(); this.querySelector('button[type=submit]').innerHTML = 'Message Sent!'; this.querySelector('button[type=submit]').classList.add('bg-green-500', 'hover:bg-green-600'); setTimeout(() => { this.querySelector('button[type=submit]').innerHTML = 'Send Message'; this.querySelector('button[type=submit]').disabled = false; this.querySelector('button[type=submit]').classList.remove('bg-green-500', 'hover:bg-green-600'); }, 3000); }, 1000);"
                 >
                     <!-- Glossy Effect -->

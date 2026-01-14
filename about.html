@@ -45,7 +45,7 @@ title: About
                 <div>
                     <h4 class="text-gray-400 text-sm font-mono uppercase mb-4">Socials</h4>
                     <div class="flex gap-6">
-                        {% for social in site.data.owner.socials limit:5 %}
+                        {% for social in site.data.owner.socials %}
                         <a href="{{ social[1] }}" target="_blank" class="text-gray-400 hover:text-white transition-colors text-xl" aria-label="{{ social[0] | capitalize }}">
                             <!-- Icon Logic -->
                             {% assign platform = social[0] | downcase %}
@@ -63,6 +63,8 @@ title: About
                                 {% assign icon_class = 'fab fa-youtube' %}
                             {% elsif platform == 'behance' %}
                                 {% assign icon_class = 'fab fa-behance' %}
+                            {% elsif platform == 'reddit' %}
+                                {% assign icon_class = 'fab fa-reddit' %}
                             {% endif %}
                             
                             <i class="{{ icon_class }}"></i>

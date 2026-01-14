@@ -147,4 +147,5 @@ config:
   google_form_action: "https://docs.google.com/forms/d/e/1FAIpQLScoGjs6o2OjoZJ9auAL-TKr1mMGzXubo94H9O3P1ah04T93zw/formResponse"
   github_username: "harsh98trivedi"
   google_analytics_id: "G-45C37D3GB5"
+  google_calendar_appointment_url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ3WDIJ3AFzr5LP_9O2R6Acnk7VM7tjil7P1EIxLOvTJCzew6IiBqSYsqC4PbnJQ1_FRavLvAdFj?gv=true"
   disqus_username: "harshtrivedi"
