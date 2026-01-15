@@ -110,6 +110,6 @@ On the other hand, if you’re looking for a more complex theme that includes fe
 ---
 
 You can learn about Github Pages and Jekyll Tutorial by the following YouTube playlist:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I hope this helps! Let me know if you have any other questions.
