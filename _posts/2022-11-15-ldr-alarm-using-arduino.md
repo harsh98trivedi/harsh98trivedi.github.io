@@ -1,7 +1,7 @@
 ---
 title: LDR Alarm using Arduino
 layout: post
-post-image: https://i.imgur.com/VrAM2SD.png
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608293/LDR_Alarm_bbfuyt.png
 description: 'How to Build an LDR Alarm with Arduino: A Step-by-Step Guide'
 tags:
 - Arduino

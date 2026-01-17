@@ -1,7 +1,7 @@
 ---
 title: Job Love Requires Adaptability
 layout: post
-post-image: https://i.imgur.com/J5zKkDc.png
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608292/Job_Love_jfozd8.png
 description: Love your job, not your company. Companies change, but your skills are
   transferable.
 tags:

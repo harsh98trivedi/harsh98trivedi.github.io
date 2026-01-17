@@ -1,7 +1,7 @@
 ---
 title: Expectations Hurt
 layout: post
-post-image: https://i.imgur.com/tmWLCxU.jpg
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608293/Expectations_Hurt_ronazk.jpg
 description: Expectations Hurt, but you should not stop expecting as it helps you
   to troubleshoot with yourself.
 tags:

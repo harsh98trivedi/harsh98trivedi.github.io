@@ -1,6 +1,6 @@
 ---
 title: Hello World
-post-image: https://i.imgur.com/8aFFy4S.jpg
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608292/Hello-World_ktaivp.jpg
 description: Harsh Trivedi, a Tech Lover, a Graphic Freak, Inspired by Imagination.
 layout: post
 tags:

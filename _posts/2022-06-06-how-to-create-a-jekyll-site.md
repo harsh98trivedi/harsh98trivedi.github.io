@@ -1,7 +1,7 @@
 ---
 title: How to Create a Jekyll Site
 layout: post
-post-image: https://i.imgur.com/9MtwSt6.png
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608293/Jekyll_Site_x0e11g.png
 description: Learn how to create a Jekyll site in some quick simple steps
 tags:
 - Jekyll

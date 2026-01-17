@@ -1,7 +1,7 @@
 ---
 title: Pixels and Emotions
 layout: post
-post-image: https://i.imgur.com/bl0GFUU.jpg
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608293/Pixels_and_Emotions_lisojd.jpg
 description: Tech-loving artist navigating emotions, challenges, and personal growth
   on a unique journey of self-expression and fulfilment.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: All about JAM-Stack
 layout: post
-post-image: https://i.imgur.com/LHlLsMx.png
+post-image: https://res.cloudinary.com/dtxanlb46/image/upload/v1768608292/JAMStack_b0alo4.png
 description: The Future of Static Site Generation
 tags:
 - Web Development
