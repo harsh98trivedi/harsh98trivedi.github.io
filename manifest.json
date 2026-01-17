@@ -1,16 +1,18 @@
+---
+---
 {
-  "name": "EchoFolio",
-  "short_name": "EchoFolio",
+  "name": "{{ site.data.owner.name }}",
+  "short_name": "{{ site.data.owner.name }}",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#030712",
   "theme_color": "#030712",
-  "description": "A premium portfolio theme for developers.",
+  "description": "{{ site.data.owner.bio_short }}",
   "icons": [
     {
-      "src": "/assets/img/logo.svg",
+      "src": "{{ site.data.owner.avatar }}",
       "sizes": "192x192 512x512",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
   ]
 }
