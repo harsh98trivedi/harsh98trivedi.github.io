@@ -1,0 +1,31 @@
+Ignoring bigdecimal-3.1.4 because its extensions are not built. Try: gem pristine bigdecimal --version 3.1.4
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring ffi-1.16.3 because its extensions are not built. Try: gem pristine ffi --version 1.16.3
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc --version 2.4.0
+bundler: failed to load command: jekyll (/Users/harshtrivedi/Desktop/harsh98trivedi.github.io/vendor/bundle/ruby/2.6.0/bin/jekyll)
+/Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/definition.rb:540:in `materialize': Could not find eventmachine-1.2.7, http_parser.rb-0.8.1, ffi-1.17.3 in locally installed gems (Bundler::GemNotFound)
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/definition.rb:200:in `specs'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/definition.rb:266:in `specs_for'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/runtime.rb:18:in `setup'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler.rb:162:in `setup'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/setup.rb:23:in `block in <top (required)>'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/ui/shell.rb:159:in `with_level'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/ui/shell.rb:111:in `silence'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/setup.rb:23:in `<top (required)>'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli/exec.rb:56:in `require_relative'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli/exec.rb:56:in `kernel_load'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli/exec.rb:23:in `run'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli.rb:492:in `exec'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli.rb:34:in `dispatch'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/cli.rb:28:in `start'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/exe/bundle:37:in `block in <top (required)>'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+	from /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.21/exe/bundle:29:in `<top (required)>'
+	from /usr/local/bin/bundle:23:in `load'
+	from /usr/local/bin/bundle:23:in `<main>'

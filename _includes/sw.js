@@ -52,7 +52,7 @@ if (workbox) {
 
   // Cache Images
   workbox.routing.registerRoute(
-    ({request}) => request.destination === 'image',
+    ({request, url}) => request.destination === 'image' && !url.hostname.includes('disqus.com') && !url.hostname.includes('viglink.com'),
     new workbox.strategies.CacheFirst({
       cacheName: 'images',
       plugins: [

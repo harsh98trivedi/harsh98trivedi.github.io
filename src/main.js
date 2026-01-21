@@ -69,6 +69,5 @@ function initApp() {
     initTimeouts.push(t1);
 }
 
-// Initialize on DOMContentLoaded and Turbo Load
+// Initialize on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', initApp);
-document.addEventListener('turbo:load', initApp);

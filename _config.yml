@@ -19,15 +19,13 @@ exclude:
   - vite.config.js
   - src
   - README.md
+  - vendor
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-workbox-plugin
-  - jekyll-turbo
-
 # Workbox Configuration
 workbox:
   sw_src_filepath: _includes/sw.js # Optional: Path to your custom SW template
