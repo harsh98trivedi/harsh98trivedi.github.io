@@ -6,7 +6,7 @@ image: https://github.com/harsh98trivedi/harsh98trivedi.github.io/raw/master/ass
 
 <section class="relative min-h-screen pt-32 pb-20 overflow-hidden">
     <!-- Subtle Grain Texture -->
-    <div class="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay" style="background-image: url('https://grainy-gradients.vercel.app/noise.svg');"></div>
+    <div class="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay" style="background-image: url(&quot;data:image/svg+xml,%3Csvg viewBox=%270 0 200 200%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cfilter id=%27noiseFilter%27%3E%3CfeTurbulence type=%27fractalNoise%27 baseFrequency=%270.8%27 numOctaves=%273%27 stitchTiles=%27stitch%27/%3E%3C/filter%3E%3Crect width=%27100%25%27 height=%27100%25%27 filter=%27url(%23noiseFilter)%27/%3E%3C/svg%3E&quot;);"></div>
 
     <div class="container mx-auto px-6 relative z-10">
         
@@ -45,7 +45,7 @@ image: https://github.com/harsh98trivedi/harsh98trivedi.github.io/raw/master/ass
                 <div class="text-4xl">👋</div>
                 <div>
                     <h4 class="text-gray-400 text-sm font-mono uppercase mb-4">Socials</h4>
-                    <div class="flex gap-6">
+                    <div class="flex flex-wrap gap-x-6 gap-y-3">
                         {% for social in site.data.owner.socials %}
                         <a href="{{ social[1] }}" target="_blank" class="text-gray-400 hover:text-white transition-colors text-xl" aria-label="{{ social[0] | capitalize }}">
                             <!-- Icon Logic -->

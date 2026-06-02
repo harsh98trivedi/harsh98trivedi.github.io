@@ -1,5 +1,9 @@
+- name: TripFuelCalci
+  link: https://github.com/harsh98trivedi/TripFuelCalci
+  image: https://raw.githubusercontent.com/harsh98trivedi/TripFuelCalci/master/src/assets/meta.jpg
+  description: A Hyper-utility Progressive Web App (PWA) designed to compute accurate, real-time trip fuel costs globally.
 - name: 6174 Constant
-  link: github.com/harsh98trivedi/6174-Constant
+  link: https://github.com/harsh98trivedi/6174-Constant
   image: https://repository-images.githubusercontent.com/1179405145/d9e45703-633d-4731-b128-2af1f017dfb9
   description: An interactive tribute to the beauty of number theory and the work of D.R. Kaprekar.
 - name: LuxuryCarSolution

@@ -77,14 +77,25 @@
         };
 
         // --- Initial Load ---
-        // Use visible state immediately if JS runs early ?? 
-        // Actually, CSS puts it there. We just need to hide it when ready.
-        
-        window.addEventListener('load', () => {
+        let loaderHidden = false;
+        const startHiding = () => {
+            if (loaderHidden) return;
+            loaderHidden = true;
             setTimeout(() => {
                 hideLoader();
-            }, MIN_DISPLAY_TIME);
-        });
+            }, 200); // Small buffer to let initial paint settle
+        };
+
+        if (document.readyState === 'interactive' || document.readyState === 'complete') {
+            startHiding();
+        } else {
+            document.addEventListener('DOMContentLoaded', startHiding);
+        }
+
+        window.addEventListener('load', startHiding);
+
+        // Safety fallback in case of delayed resource loads or blocking scripts
+        setTimeout(startHiding, 1500);
 
         // --- Navigation Interception ---
         document.addEventListener('DOMContentLoaded', () => {
