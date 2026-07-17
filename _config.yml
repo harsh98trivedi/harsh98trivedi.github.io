@@ -1,3 +1,4 @@
+url: "https://harsh98trivedi.github.io"
 permalink: /blog/:title/
 # SASS
 sass:
@@ -26,6 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 # Workbox Configuration
 workbox:
   sw_src_filepath: _includes/sw.js # Optional: Path to your custom SW template

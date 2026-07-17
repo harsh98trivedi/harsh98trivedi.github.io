@@ -1,0 +1,50 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Harsh Trivedi - Portfolio & Blog
+
+> Senior Technical Support Engineer, Web Developer, and Tech Enthusiast based in India.
+> Website: https://harshtrivedi.in / https://harsh98trivedi.github.io
+
+This file serves as a clean, machine-readable guide to the website's structure, projects, volunteering work, and blog articles for LLMs and AI agents.
+
+## Core Navigation
+
+- **About**: [Learn more about Harsh's background, skills, and experience](/about)
+- **Projects**: [Selected development and design works](/projects)
+- **Volunteering**: [Community and volunteering contributions](/volunteering)
+- **Contact**: [Get in touch with Harsh](/contact)
+- **Blog**: [Read articles on technology, design, and existential thoughts](/blog)
+
+## About Harsh Trivedi
+
+Harsh is a Senior Technical Support Engineer currently working at Everbridge (previously Acquia, Saturday Drive, LiquidWeb). He is passionate about web development, design tools, open-source projects, and tinkering with gadgets.
+
+### Technical Skills
+
+- **Development**: HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, PHP, Python, WordPress, Jekyll
+- **Frameworks & Tools**: Tailwind CSS, Bootstrap, Docker, MongoDB, MySQL, Git, Linux
+- **Design & Media**: Figma, Photoshop, Illustrator, XD, InDesign, Premiere Pro, After Effects
+
+## Projects
+
+{% for project in site.data.projects %}
+- **{{ project.name }}**: {{ project.description }}
+  - Link: [Project Link]({{ project.link }})
+{% endfor %}
+
+## Volunteering
+
+{% for vol in site.data.volunteering %}
+- **{{ vol.role }}** at *{{ vol.organization }}* ({{ vol.period }})
+  - {{ vol.description }}
+{% endfor %}
+
+## Blog Posts
+
+{% for post in site.posts %}
+- **{{ post.title }}** ({{ post.date | date: "%B %d, %Y" }}): {{ post.description }}
+  - URL: {{ site.url }}{{ post.url }}
+  - Tags: {{ post.tags | join: ", " }}
+{% endfor %}
